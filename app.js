@@ -6,7 +6,7 @@ const findUserById = (id) => {
   if (user == null) return "Error: User not found";
 
   const { name, email } = user;
-  return "ID: " + id + " | Name: " + name + " | Email: " + email;
+ return `ID: ${id} | Name: ${name} | Email: ${email}`;
 };
 
 //test cases for fuctions
